@@ -1,0 +1,3 @@
+# wget http://www.rabbitmq.com/rabbitmq-signing-key-public.asc -O rabbitmq-signing-key-public.asc
+docker build -t rabbitmq .
+docker run -name rabbitmq -h rabbithost -p 15672:15672 -t rabbitmq

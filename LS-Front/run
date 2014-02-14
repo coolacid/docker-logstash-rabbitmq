@@ -1,0 +1,2 @@
+docker build -t LS-Front .
+docker run -link rabbitmq:amq -i -t LS-Front /bin/bash

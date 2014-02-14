@@ -1,0 +1,2 @@
+docker build -t LS-Back .
+docker run -link rabbitmq:amq -i -t LS-Back /bin/bash
