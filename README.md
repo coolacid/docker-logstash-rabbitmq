@@ -13,21 +13,21 @@ You can tweek this more by changing the Logstash ls-run command to pull the conf
 First Steps
 -----------
 
-git clone this repo
-Download logstash-1.3.3-flatjar.jar and place in LS-Base
+- git clone this repo
+- Download logstash-1.3.3-flatjar.jar and place in LS-Base
 
 Starting
 --------
 
-Start the RabbitMQ docker build first
-Then the LS-Front (Because RabbitMQ needs exchange before clients)
-Then start as many LS-Backends as you see fit.
+- Start the RabbitMQ docker build first
+- Then the LS-Front (Because RabbitMQ needs exchange before clients)
+- Then start as many LS-Backends as you see fit.
 
 Next Steps
 ----------
 
-Laugh mechanicly as things happey
-Fork, and pull any suggestions ;)
+- Laugh mechanicly as things happen.
+- Fork, and pull any suggestions ;)
 
 My Next Steps?
 -------------
